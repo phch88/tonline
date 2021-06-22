@@ -7,4 +7,5 @@ logs
 
 # Ignore the build directory
 /.vs
-
+/bin
+/obj
