@@ -26,5 +26,9 @@ namespace tonline.web.Controllers
 
             return View();
         }
+        public string[] GetList()
+        {
+            return new string[] { "H","e","l","l","o" };
+        }
     }
 }
