@@ -10,6 +10,7 @@ namespace tonline.web.Controllers
     {
         public ActionResult Index()
         {
+	    int a = int.Parse("a1");
             return View();
         }
 
