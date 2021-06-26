@@ -4,6 +4,7 @@ pipeline{
 	stages {
 		stage("build"){
 			steps {
+				echo 'building'
 				bat "\"${tool 'MSBuild'}\\MsBuild.exe\" tonline.sln"
 			}
 		}
@@ -11,6 +12,7 @@ pipeline{
 		stage("test"){
 			steps {
 				echo 'testing'
+				bat "\"${tool 'MSTest'}\\MSTest.exe\" tonline.test\\bin\\Debug\\tonline.test.dll"
 			}
 		}
 	}
