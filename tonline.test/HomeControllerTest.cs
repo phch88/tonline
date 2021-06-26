@@ -13,7 +13,6 @@ namespace tonline.test
             var result = homeController.GetList();
             Console.WriteLine("Hello Jenkins");
             Assert.IsNotNull(result);
-            
-        }
+        }   
     }
 }
