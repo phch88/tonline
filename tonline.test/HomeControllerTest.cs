@@ -22,7 +22,7 @@ namespace tonline.test
             Console.WriteLine("Hello Product 2");
             Console.WriteLine("Hello Product 3");
             Console.WriteLine("Hello Product 4");
-            Assert.AreEqual("1","1");
+            Assert.AreEqual("1","2");
         }
     }
 }
