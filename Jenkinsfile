@@ -12,7 +12,7 @@ pipeline{
 		stage("test"){
 			steps {
 				echo 'testing'
-				bat "\"${tool 'MSTest'}\\MSTest.exe\" tonline.test\\bin\\Debug\\tonline.test.dll"
+				bat "\"${tool 'VSTestConsole'}\\vstest.console.exe\" tonline.test\\bin\\Debug\\tonline.test.dll"
 			}
 		}
 	}
