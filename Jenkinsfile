@@ -5,6 +5,7 @@ pipeline{
 		stage("build"){
 			steps {
 				echo 'building'
+				sh 'msbuild tonline.sln'
 			}
 		}
 
