@@ -4,7 +4,7 @@ pipeline{
 	stages {
 		stage("build"){
 			steps {
-				bat "\"${tool 'MSBuild'}MsBuild\" tonline.sln"
+				bat '${tool "MSBuild"} tonline.sln'
 			}
 		}
 
