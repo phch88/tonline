@@ -4,7 +4,7 @@ pipeline{
 	stages {
 		stage("build"){
 			steps {
-				sh 'msbuild tonline.sln'
+				bat 'msbuild tonline.sln'
 			}
 		}
 
