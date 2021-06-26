@@ -4,7 +4,7 @@ pipeline{
 	stages {
 		stage("build"){
 			steps {
-				bat 'msbuild tonline.sln'
+				bat 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\msbuild tonline.sln'
 			}
 		}
 
