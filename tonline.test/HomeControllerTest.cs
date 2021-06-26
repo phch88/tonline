@@ -11,7 +11,6 @@ namespace tonline.test
         {
             tonline.web.Controllers.HomeController homeController = new web.Controllers.HomeController();
             var result = homeController.GetList();
-	    int a = int.Parse("a1");
             Console.WriteLine("Hello Jenkins");
             Assert.IsNotNull(result);
             
